@@ -58,6 +58,7 @@
                 imageFile = nodeInfo;
               }
             ];
+            pullPolicy = "IfNotPresent";
           };
 
           environment.systemPackages = [ pkgs.faas-cli ];
@@ -75,7 +76,7 @@
     {
       nixosConfigurations.faasd-vm = nixos-shell.lib.nixosShellSystem {
         inherit system;
-        modules = [ faasdServer (args: { nixos-shell.mounts.mountHome = true; }) ];
+        modules = [ faasdServer (args: { nixos-shell.mounts.mountHome = false; }) ];
       };
 
       packages.x86_64-linux = {
