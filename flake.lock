@@ -9,11 +9,11 @@
         "utils": "utils"
       },
       "locked": {
-        "lastModified": 1641855912,
-        "narHash": "sha256-xfaY8iYEIF11UW/cYGm7wyQCnXrD3yb0lE61sXXBxHs=",
+        "lastModified": 1641939007,
+        "narHash": "sha256-cgCyuJFspZDLPi1v5BKxnohytRHlKaqzPVHZjq00Mxg=",
         "owner": "welteki",
         "repo": "faasd-nix",
-        "rev": "36a2acebc528c765adc805f637d46baa0ec88485",
+        "rev": "2c5f83b26b23ae0e1b9d7bc4ca9b90e8ad60ff7d",
         "type": "github"
       },
       "original": {
